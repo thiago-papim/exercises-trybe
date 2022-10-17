@@ -1,0 +1,40 @@
+#h1ingredientes {
+    font-family: 
+
+}
+
+.fato {
+    padding: 10px;
+    padding-left: 20px;
+    
+}
+
+p {
+    font-family: monospace;
+}
+
+.perigo {
+    color: white;
+    background-color: red;
+    
+}
+
+.perigo2 {
+    color: aqua;
+    background-color: black;
+    
+}
+
+p.perigo {
+    border: 10px solid yellow;
+}
+
+ul li p{
+    background-color: aqua;
+    color: white;
+}
+
+ul li p.segundo{
+    background-color: black;
+    color: white;
+}
