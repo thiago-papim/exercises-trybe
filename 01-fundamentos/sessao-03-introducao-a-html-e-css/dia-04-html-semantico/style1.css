@@ -1,0 +1,28 @@
+img {
+   
+}
+
+article{
+    text-align: center;
+    
+}
+.total {    
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    min-height: 500px;
+    
+}
+.general-information {
+    background-color: blueviolet;
+}
+.vision {
+    background-color: aqua;
+}
+.where-to-find {
+    background-color: red;
+}
+.also-known {
+    background-color: blue;
+}
