@@ -1,0 +1,43 @@
+img {
+   
+}
+header nav li{
+    display: inline;   
+}
+header nav {
+    text-align: center;
+    min-width: 50%;    
+}
+
+article{
+    text-align: center;
+    
+}
+.total {    
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    min-height: 500px;    
+}
+.total img{
+    width: 100%;
+}
+.general-information {
+    background-color: blueviolet;
+}
+.vision {
+    background-color: aqua;
+}
+.where-to-find {
+    background-color: red;
+}
+.also-known {
+    background-color: blue;
+}
+h1 {
+    text-align: center;
+}
+.video {
+    text-align: center;
+}
