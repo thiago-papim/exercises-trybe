@@ -31,3 +31,35 @@ console.log(ondeEsta.nextElementSibling);
 // Agora acesse o terceiroFilho a partir de pai.
 
 console.log(pai.lastElementChild.previousElementSibling);
+
+// Crie um irmão para elementoOndeVoceEsta.
+
+const irmaoOndeVoceEsta = document.createElement("section");
+
+irmaoOndeVoceEsta.tagName = 'irmaoElementoOndeVoceEsta';
+
+const textoIrmao = document.createElement("p");
+
+textoIrmao.innerText = "Testando";
+
+irmaoOndeVoceEsta.appendChild(textoIrmao);
+
+pai.appendChild(irmaoOndeVoceEsta);
+
+console.log(document);
+
+// Crie um filho para elementoOndeVoceEsta.
+
+const filhoElementoOnde = document.createElement("div");
+
+ondeEsta.appendChild(filhoElementoOnde);
+
+// Crie um filho para primeiroFilhoDoFilho.
+
+const filho3geracao = document.createElement("span");
+
+filhoPrimeiroPrimeiro.appendChild(filho3geracao);
+
+// A partir desse filho criado, acesse terceiroFilho.
+
+const filhoTerceiro = filho3geracao.parentElement.parentElement.parentElement.lastElementChild.previousElementSibling.previousElementSibling;
