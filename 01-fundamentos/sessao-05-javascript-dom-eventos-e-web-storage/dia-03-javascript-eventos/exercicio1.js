@@ -11,21 +11,46 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // - Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 //  - Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
 
+const caixa1 = document.getElementById("tech");
+const caixa2 = document.getElementById("second-li");
+const caixa3 = document.getElementById("third-li");
+const textoCaixa1 = document.getElementById("first-li")
+
+caixa2.addEventListener("click", addTech1);
+caixa3.addEventListener("click", addTech2);
+
+function addTech1(){
+  caixa2.className = "tech";
+}
+function addTech2(){
+  caixa3.className = "tech";
+}
+
+
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
+
+const inputTexto = document.querySelector("#input");
+
+function alteraTexto () {
+  textoCaixa1.innerText = inputTexto.value;
+  }
+
+inputTexto.addEventListener("change", alteraTexto)
+
 
 // - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 //  - Que tal redirecionar para seu portfólio?
 
-let top3 = document.getElementById("my-spotrybefy");
-top3.addEventListener("dblclick", redirecionar);
+let top3 = document.getElementById('my-spotrybefy');
+let link = "http://www.google.com"
 
-
-
-function redirecionar(){
-  
+function abreLink () {
+  window.open(link, "_blank")
 }
+
+top3.addEventListener('dblclick', abreLink);
 
 // - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
