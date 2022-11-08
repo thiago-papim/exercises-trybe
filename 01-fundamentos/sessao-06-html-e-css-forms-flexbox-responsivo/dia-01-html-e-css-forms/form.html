@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=oi, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+
+    <!-- O formulário deverá permitir que a pessoa usuária insira os seguintes campos:
+    Nome Completo:
+    Limitado entre 10 e 40 caracteres.
+    E-mail:
+    Limitado entre 10 e 50 caracteres.
+    Destino Preferido:
+    4 opções: Cidade, Campo, Praia, Montanhas.
+    Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+    Limite de 500 caracteres.
+    Qual a melhor data para realizar sua viagem?
+    Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+    Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+    Esses serão os principais campos utilizados nos próximos exercícios.
+    Crie um botão para enviar as informações preenchidas. 
+    Crie um botão que limpe as informações contidas nos campos. -->
+
+    <section id="formulario">
+      <form action="" method="get">
+        <label for="inputName">
+          Nome:
+        </label>
+        <input type="text" id="inputName" placeholder="Digite aqui" maxlength="40" minlength="10">
+        <br>
+        <br>
+        <label for="inputEmail">
+          Email:
+        </label>
+        <input type="email" id="inputEmail" placeholder="Digite aqui" maxlength="50" minlength="10">
+        <br>
+        <br>
+        <input type="radio" value="cid" name="destino">Cidade
+        <input type="radio" value="cam" name="destino">Campo
+        <input type="radio" value="pra" name="destino">Praia
+        <input type="radio" value="mon" name="destino">Montanhas
+        <br>
+        <label for="resposta">
+          Espaço para digitar a resposta:
+        </label>
+        <br>
+        <textarea name="destino" id="resposta" cols="30" rows="10" maxlength="500"></textarea>
+        <br>
+        <label for="date">Data:</label>
+        <input type="date" id="date">
+        <br>
+        <br>
+        <input type="checkbox" id="receberOferta">Gostaria de receber outras incríveis oportunidades oferecidas pela
+        Trybe?
+        <br>
+        <input type="checkbox" id="concordo" required>Concordo que imagens das minhas férias poderão ser usadas na
+        divulgação de concursos futuros.
+        <br>
+        <br>
+        <button type="submit" id="submitForm" disabled>Enviar</button> <button type="reset" id="apagarForm">Apagar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Agora vamos utilizar um pouco de javascript. Para isso, crie o arquivo script.js e o referencie no HTML.
+
+Dica: Coloque a tag <script> no final do seu body. -->
+
+  <script>
+
+    // Interrompa o comportamento padrão do botão submit utilizando o método preventDefault().
+
+    const submit = document.querySelector("#submitForm");
+    const inputEmail = document.querySelector("#inputEmail");
+    const inputName = document.querySelector("#inputName");
+    const textAreaResposta = document.querySelector("#resposta")
+    const check = document.querySelector("#concordo")
+
+    submit.addEventListener("click", function (event) {
+      event.preventDefault();
+    })
+
+    // (Bônus) A TrybeTrip precisa muito de fotos para divulgar seus concursos. Tendo isso em mente, faça com que somente quem autorizar o uso de imagens possa enviar suas informações.
+
+    // (Bônus) Faça a validação dos campos com limite de caracteres. Caso não estejam dentro do esperado ao clicar no botão de submit, um alerta deve ser mostrado com a mensagem: ‘Dados Inválidos’. Caso contrário, a mensagem ‘Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.’ deverá aparecer na tela.
+
+    function enableSubmit() {
+      submit.disabled = !check.checked;
+    }
+    check.addEventListener("change", enableSubmit)
+
+    submit.addEventListener("click", function () {
+      if (inputEmail.value.length < 10 || inputEmail.value.length > 50) {
+        alert("Dados Inválidos");
+      } else if (inputName.value.length < 10 || inputName.value.length > 40) {
+        alert("Dados Inválidos")
+      } else if (textAreaResposta.value.length > 500) {
+        alert("Dados Inválidos");
+      } else if (check.addEventListener("change", enableSubmit)) {
+        alert("Dados Inválidos");
+      } else {
+        alert("Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.")
+      }
+    })
+  </script>
+</body>
+</html>
