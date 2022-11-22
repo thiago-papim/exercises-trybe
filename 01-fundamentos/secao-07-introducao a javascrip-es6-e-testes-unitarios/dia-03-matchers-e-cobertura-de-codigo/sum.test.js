@@ -23,4 +23,18 @@ describe('Teste function printMessage', () => {
         const mensagem = printMessage(info);
         expect(mensagem).toMatch('Boas vindas');
     })
+    test('Verifique se a resposta contém o nome correto da personagem.', () => {
+        const mensagem = printMessage(info);
+        expect(mensagem).toMatch('Margarida');
+    })
+})
+
+describe('Teste funciton printMessage2', () => {
+    test('Verificar se á um erro caso a função seja chamada com um objeto inválido', () => {
+        expect(typeof(info)).toBe('object');
+    })
+    test('Verificar se tem o personagem Margarida em personagem', () => {
+        expect(info).toHaveProperty('personagem');
+        expect(info).toHaveProperty('personagem', 'Margarida');
+    })
 })

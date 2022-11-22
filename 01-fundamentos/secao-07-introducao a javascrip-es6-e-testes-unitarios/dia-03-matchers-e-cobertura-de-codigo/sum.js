@@ -12,7 +12,13 @@ let info = {
 };
 
 const printMessage = (characterInfo) => {
-    return ('Boas vindas, ' + characterInfo.personagem);
-};
+    if (!characterInfo || characterInfo.personagem === undefined) {
+      throw new Error('objeto inválido');
+    }
+    return ('Boas vindas, '+ characterInfo.personagem);
+  };
 
 module.exports = { sum, info, printMessage };
+
+console.log(typeof(info));
+console.log(info);
