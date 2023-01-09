@@ -82,6 +82,54 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Introdução ao React
 
-- [ ] 1-1: _'Hello, world!' no React_
-- [ ] 1-2: _Componentes React_
-- [ ] 1-3: _Projeto - Solar System_
+- [ ] 2-1: _'Hello, world!' no React_
+- [ ] 2-2: _Componentes React_
+- [ ] 2-3: _Projeto - Solar System_
+
+##### Componentes com estado e eventos
+
+- [ ] 3-1: _Componentes com estado e eventos_
+- [ ] 3-2: _Formulário no React_
+- [ ] 3-3: _Projeto - Tryunfo_
+
+##### Ciclo de Vida de Componentes e React Router
+
+- [ ] 4-1: _Ciclo de cida de componentes_
+- [ ] 4-2: _React Router_
+- [ ] 4-3: _Projeto - TrybeTunes_
+
+##### Metodologias Ágeis
+
+- [ ] 5-1: _Metodologia Ágeis_
+- [ ] 5-2: _Projeto - Front-end Online Store_
+
+##### Testes automatizados com React Testing Library
+
+- [ ] 6-1: _RTL - Primeiros passos_
+- [ ] 6-2: _RTL - Mocks e Inputs_
+- [ ] 6-3: _RTL - Testando React Router_
+- [ ] 6-4: _Projeto - Testes em React_
+
+##### Gerenciamento de estado com Redux
+
+- [ ] 7-1: _Introdução ao Redux - O estado global de aplicação_
+- [ ] 7-2: _Usando o Redux no React_
+- [ ] 7-3: _Usando o redux no React - Prática_
+- [ ] 7-4: _Usando o Reduz no React - Actions Assíncronas_
+- [ ] 7-5: _Testes em React-Redux_
+- [ ] 7-6: _Projeto - Trybe Wallet_
+
+##### Projeto Jogo de Trivia
+
+- [ ] 8-1: _Projeto - Jogo de Trivia_
+
+##### Context API e React Hooks
+
+- [ ] 9-1: _React Hooks - useStage e useEffect_
+- [ ] 9-2: _Context API_
+- [ ] 9-3: _Custom Hooks_
+- [ ] 9-4: _Projeto - StarWars Datatable com Context API e Hooks_
+
+##### Projeto App de Receitas
+
+- [ ] 8-1: _Projeto - App de Receitas_
