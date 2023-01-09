@@ -72,7 +72,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Front-end:
 
-##### Introdução ao Fontend e JavaScript assíncrono
+##### Seção 1: Introdução ao Fontend e JavaScript assíncrono
 
 - [ ] 1-1: _Ambiente de desenvolvimento_
 - [ ] 1-2: _JavaScript Assíncrono - Promises e fetch_
@@ -80,37 +80,37 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 1-4: _Async, awati e testes assíncronos_
 - [ ] 1-5: _Projeto - Carrinho de comnpras_
 
-##### Introdução ao React
+##### Seção 2: Introdução ao React
 
 - [ ] 2-1: _'Hello, world!' no React_
 - [ ] 2-2: _Componentes React_
 - [ ] 2-3: _Projeto - Solar System_
 
-##### Componentes com estado e eventos
+##### Seção 3: Componentes com estado e eventos
 
 - [ ] 3-1: _Componentes com estado e eventos_
 - [ ] 3-2: _Formulário no React_
 - [ ] 3-3: _Projeto - Tryunfo_
 
-##### Ciclo de Vida de Componentes e React Router
+##### Seção 4: Ciclo de Vida de Componentes e React Router
 
 - [ ] 4-1: _Ciclo de cida de componentes_
 - [ ] 4-2: _React Router_
 - [ ] 4-3: _Projeto - TrybeTunes_
 
-##### Metodologias Ágeis
+##### Seção 5: Metodologias Ágeis
 
 - [ ] 5-1: _Metodologia Ágeis_
 - [ ] 5-2: _Projeto - Front-end Online Store_
 
-##### Testes automatizados com React Testing Library
+##### Seção 6: Testes automatizados com React Testing Library
 
 - [ ] 6-1: _RTL - Primeiros passos_
 - [ ] 6-2: _RTL - Mocks e Inputs_
 - [ ] 6-3: _RTL - Testando React Router_
 - [ ] 6-4: _Projeto - Testes em React_
 
-##### Gerenciamento de estado com Redux
+##### Seção 7: Gerenciamento de estado com Redux
 
 - [ ] 7-1: _Introdução ao Redux - O estado global de aplicação_
 - [ ] 7-2: _Usando o Redux no React_
@@ -119,17 +119,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 7-5: _Testes em React-Redux_
 - [ ] 7-6: _Projeto - Trybe Wallet_
 
-##### Projeto Jogo de Trivia
+##### Seção 8: Projeto Jogo de Trivia
 
 - [ ] 8-1: _Projeto - Jogo de Trivia_
 
-##### Context API e React Hooks
+##### Seção 9: Context API e React Hooks
 
 - [ ] 9-1: _React Hooks - useStage e useEffect_
 - [ ] 9-2: _Context API_
 - [ ] 9-3: _Custom Hooks_
 - [ ] 9-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
-##### Projeto App de Receitas
+##### Seção 10: Projeto App de Receitas
 
 - [ ] 8-1: _Projeto - App de Receitas_
