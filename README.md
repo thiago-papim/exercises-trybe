@@ -69,3 +69,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
  - [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
  - [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
  - [x] 8-6: _Projeto - Zoo functions_
+
+## Front-end:
+
+##### Introdução ao Fontend e JavaScript assíncrono
+
+- [ ] 1-1: _Ambiente de desenvolvimento_
+- [ ] 1-2: _JavaScript Assíncrono - Promises e fetch_
+- [ ] 1-3: _Prática - Casa de câmbio_
+- [ ] 1-4: _Async, awati e testes assíncronos_
+- [ ] 1-5: _Projeto - Carrinho de comnpras_
+
+##### Introdução ao React
+
+- [ ] 1-1: _'Hello, world!' no React_
+- [ ] 1-2: _Componentes React_
+- [ ] 1-3: _Projeto - Solar System_
